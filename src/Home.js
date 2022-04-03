@@ -17,7 +17,7 @@ const Home = () => {
     useEffect(() => {
       console.log('USE EFFECT RAN!!');
       console.log(blogs);
-    });
+    },[]);
 
     return ( 
         <div className="home">
